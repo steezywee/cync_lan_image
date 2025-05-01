@@ -1,7 +1,7 @@
 {
   "name": "Cync LAN Image",
   "version": "1.0.0",
-  "slug": "cync_lan_image",
+  "slug": "cync_lan",
   "description": "Control Cync lights over LAN using a prebuilt image",
   "startup": "services",
   "boot": "auto",
