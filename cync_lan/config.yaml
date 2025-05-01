@@ -1,0 +1,11 @@
+name: "Cync LAN Add-on"
+version: "1.0.0"
+slug: "cync_lan"
+description: "Bridge for Cync LAN MQTT integration"
+arch:
+  - amd64
+  - armv7
+  - arm64
+startup: services
+boot: auto
+image: "ghcr.io/steezywee/cync-lan"
