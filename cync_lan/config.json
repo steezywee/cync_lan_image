@@ -1,14 +1,13 @@
-name: "Cync LAN"
-version: "1.0.0"
-slug: "cync_lan"
-description: "Control Cync (C by GE) devices via LAN API"
-startup: "application"
-boot: "auto"
-image: "ghcr.io/steezywee/cync-lan"
-host_network: true
-arch:
-  - amd64
-  - armv7
-  - arm64
-options: {}
-schema: {}
+{
+  "name": "Cync LAN",
+  "version": "1.0.0",
+  "slug": "cync_lan",
+  "description": "Control Cync (C by GE) devices via LAN API",
+  "startup": "application",
+  "boot": "auto",
+  "image": "ghcr.io/steezywee/cync-lan",
+  "host_network": true,
+  "arch": ["amd64", "armv7", "arm64"],
+  "options": {},
+  "schema": {}
+}
