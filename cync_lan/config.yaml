@@ -1,13 +1,15 @@
-{
-  "name": "Cync LAN Image",
-  "version": "1.0.0",
-  "slug": "cync_lan",
-  "description": "Control Cync lights over LAN using a prebuilt image",
-  "startup": "services",
-  "boot": "auto",
-  "image": "ghcr.io/steezywee/cync_lan_image:latest",
-  "host_network": true,
-  "arch": ["aarch64", "amd64", "armv7", "i386"],
-  "options": {},
-  "schema": {}
-}
+name: "Cync LAN Image"
+version: "1.0.0"
+slug: "cync_lan"
+description: "Control Cync lights over LAN using a prebuilt image"
+startup: services
+boot: auto
+image: "ghcr.io/steezywee/cync_lan_image:latest"
+host_network: true
+arch:
+  - aarch64
+  - amd64
+  - armv7
+  - i386
+options: {}
+schema: {}
